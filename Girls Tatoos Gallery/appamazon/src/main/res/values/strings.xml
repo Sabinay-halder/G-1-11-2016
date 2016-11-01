@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tattoos For Girl\'s</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_grirdview">GrirdviewActivity</string>
+    <string name="share">SHARE</string>
+    <string name="wall">SET WALLPAPER</string>
+    <string name="download">DOWNLOAD</string>
+    <string name="grid">GRID</string>
+    <string name="more_apps">MORE APPS</string>
+    <string name="slide_show">SLIDESHOW</string>
+
+</resources>

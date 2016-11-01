@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/pop_bg"
+    android:id="@+id/popuplayout"
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom|center_horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon"
+
+            />
+    </LinearLayout>
+    <com.adsoft.girls_tatoos_gallery.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Please leave us a feedback and rate our App with 5 Star on Play Store"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/popup_text"
+        android:textColor="#000000"
+        android:paddingLeft="10dp"
+        android:textStyle="bold|italic"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+
+
+        android:gravity="center">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cancel_icon"
+            android:id="@+id/no"
+
+
+            />  <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/review"
+        android:id="@+id/yes"
+        android:text="Yes"
+
+        android:layout_marginTop="3dp"
+        android:textColor="#ffffff"
+        />
+    </LinearLayout>
+</LinearLayout>
+
+
